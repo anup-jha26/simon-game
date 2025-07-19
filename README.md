@@ -2,8 +2,6 @@
 
 A classic memory-based color sequence game built with **HTML**, **CSS**, and **Vanilla JavaScript**.
 
-🎯 [Play Live (optional)](https://your-live-site-link.com)
-
 ---
 
 ## 🧠 Game Overview
@@ -41,6 +39,8 @@ A classic memory-based color sequence game built with **HTML**, **CSS**, and **V
 2. **Open index.html in your browser**  
 No build tools or frameworks needed.
 
+---
+
 ## 🧪 Game Logic Highlights
 gameSeq[]: Stores the randomly generated color sequence  
 userSeq[]: Tracks the player’s input sequence  
@@ -48,11 +48,15 @@ level: Increments each round
 highScore: Stored in browser localStorage  
 Flash animations applied via class toggling (flash, userflash, gameover)  
 
+---
+
 ## 📱 Responsive Design
 The layout adjusts for smaller screens:  
 Button size scales down  
 Font sizes adapt  
 Padding/margin optimized  
+
+---
 
 ## 👨‍💻 Author
 Anup Kumar Jha  
