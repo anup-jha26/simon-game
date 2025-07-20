@@ -125,6 +125,33 @@ h2 {
     animation: gameover-flash 0.5s infinite alternate;
 }
 
+.start-button {
+    padding: 15px 30px;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+    color: #00f0ff;
+    background-color: transparent;
+    border: 3px solid #00f0ff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 5px rgba(0, 240, 255, 0.6);
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+}
+
+.start-button:hover {
+    background-color: #00f0ff;
+    color: #1a1a2e;
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.8);
+}
+
+.start-button:active {
+    transform: scale(0.95);
+    background-color: #00c8d4;
+    box-shadow: 0 0 15px rgba(0, 200, 212, 0.6);
+}
+
 @keyframes gameover-flash {
     from {
         background-color: #c0392b;
