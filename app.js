@@ -17,12 +17,14 @@ window.onload = () => {
     }
 };
 
-document.addEventListener("keypress", startGame);
+const startButton = document.querySelector("#start-btn");
+
+startButton.addEventListener("click", startGame);
 
 function startGame() {
     if (!started) {
         started = true;
-        console.log("Game started!");
+        h2.innerText = "Game Started!";
         levelUp();
     }
 }
@@ -84,7 +86,7 @@ for (let btn of allBtns) {
 }
 
 function gameOver() {
-    h2.innerHTML = `Game Over! Your score was <b>${level}</b>.<br>Press Any Key to Restart.`;
+    h2.innerHTML = `Game Over! Your score was <b>${level}</b>.<br>Click the Start Game button to Restart.`;
     body.classList.add("gameover");
 
     if (level > highScore) {
