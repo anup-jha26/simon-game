@@ -8,6 +8,8 @@ A classic memory-based color sequence game built with **HTML**, **CSS**, and **V
 
 "Simon Says" is a memory challenge game. The computer flashes a sequence of colored buttons, and the player must repeat the sequence correctly. Each round adds one more color, increasing difficulty with every level.
 
+👉 [Play game](https://simon-says-game26.netlify.app/)
+
 ---
 
 ## 🚀 Features
